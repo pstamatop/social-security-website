@@ -1,0 +1,92 @@
+/*form styles*/
+#msform-child {
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+}
+
+#msform-child fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 10%;
+    /*stacking fieldsets above each other*/
+    position: relative;
+}
+
+/*Hide all except first fieldset*/
+#msform-child fieldset:not(:first-of-type) {
+    display: none;
+}
+
+
+
+/*buttons*/
+#msform-child .action-button {
+    width: 100px;
+/*    background: #ee0979;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 5px;*/
+    margin: 10px 5px;
+}
+
+/*#msform-child .action-button:hover, #msform-child .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #ee0979;
+}*/
+
+#msform-child .action-button-previous {
+    width: 100px;
+    /*background: #C5C5F1;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 5px;*/
+    margin: 10px 5px;
+}
+
+/*#msform-child .action-button-previous:hover, #msform-child .action-button-previous:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #C5C5F1;
+}*/
+
+#spoudastis {
+    float:left;
+    margin-left:10px;
+    padding-left:10px;
+}
+
+/*headings*/
+.fs-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #2C3E50;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.fs-subtitle {
+    font-weight: normal;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.mscontainer {
+    height: 100%;
+    padding-bottom: 10%;
+	width: 50%;
+}
+
+#success {
+    text-align: center;
+}
+

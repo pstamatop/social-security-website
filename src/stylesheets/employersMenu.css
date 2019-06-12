@@ -1,0 +1,25 @@
+.roundThumbNew{
+	height: 130px;
+	width: 130px;
+	border-radius: 100%; 
+	background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    margin: auto;
+    padding: auto;
+    opacity: 0.9;
+    background-position: center center;
+}
+
+.roundThumbNew:hover {
+	opacity: 1;
+}
+
+.roundCaptionNew{
+	text-align: center;
+	text-decoration: none;
+   	margin-top: 10px;
+}
+
+.roundCaptionNew:hover, .roundCaptionNew:focus{
+	text-decoration: none;
+}
